@@ -42,6 +42,10 @@ Hyprland works great with multiple screens. Read more about how to lay them out 
 
 You can also checkout [Hyprmon](https://github.com/erans/hyprmon/), if you'd like a TUI to help you with the positioning of multiple screens.
 
+### Independent workspaces on each screen
+
+For local workspace numbers and independent active indicators on every screen, see the opt-in [Hyprsplit workspace widget and nwg-displays example](../docs/examples/hyprsplit-workspaces/README.md). It includes a user-owned workspace widget, monitor-local shortcuts, and a display-settings launcher that writes dedicated generated files. Its setup guide explains how to keep the widget's monitor order and workspace ranges aligned with Hyprsplit and the display GUI.
+
 ### Controlling brightness
 
 Monitor brightness is controlled by the dedicated function keys for brightness up/down. If you hold down shift while pressing these, you'll go to maximum or minimum brightness. The keys control the display you're focused on, so external monitors that speak DDC/CI are adjusted the same way as the laptop screen.
